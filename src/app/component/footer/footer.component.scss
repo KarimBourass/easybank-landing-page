@@ -1,0 +1,51 @@
+footer {
+  background-color: hsl(233, 26%, 24%);
+  padding-bottom: 2em;
+}
+.content {
+  width: 80%;
+}
+.logos {
+  width: 30%;
+  margin: 2em 0;
+}
+.nav-button {
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  border-radius: 25px;
+  padding: 0 3em;
+  font-size: medium;
+  font-weight: 500;
+}
+
+ul li {
+  margin-top: 1em;
+  color: white;
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+.about {
+  margin-top: 1em;
+  min-height: 10vh;
+}
+
+.logo {
+  margin-top: 1em;
+}
+
+.right {
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 960px) {
+  .logos {
+    width: 70%;
+  }
+}
+
+
